@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.sdcardscanner.FileScannerMainActivity">
+
+    <com.dinuscxj.progressbar.CircleProgressBar
+        android:id="@+id/circleProgressBar"
+        android:layout_width="@dimen/pb_width"
+        android:layout_height="@dimen/pb_height"
+        android:layout_margin="@dimen/pb_margin"
+        android:layout_marginTop="@dimen/pb_margin_top"
+        android:max="100"
+        app:background_color="@color/icons"
+        app:draw_progress_text="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:line_count="100"
+        app:line_width="4dp"
+        app:progress_background_color="@color/primary_light"
+        app:progress_end_color="@color/colorPrimaryDark"
+        app:progress_shader="sweep"
+        app:progress_start_color="@color/colorPrimaryDark"
+        app:progress_stroke_width="16dp"
+        app:progress_text_color="@color/colorAccent"
+        app:progress_text_size="@dimen/progress_text_size"
+        app:style="solid_line"/>
+
+    <TextView
+        android:id="@+id/tv_retrieving"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/retrieve_files_text"
+        android:textColor="@color/secondary_text"
+        android:textSize="@dimen/tv_retrieve_text_size"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.341"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.522"/>
+
+    <Button
+        android:id="@+id/btn_start_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/btn_stop_margin_bottom"
+        android:layout_marginEnd="@dimen/btn_margin_right"
+        android:layout_marginLeft="@dimen/btn_stop_margin_right"
+        android:layout_marginRight="@dimen/btn_margin_right"
+        android:layout_marginStart="@dimen/btn_stop_margin_right"
+        android:background="@color/colorPrimary"
+        android:enabled="true"
+        android:onClick="startScan"
+        android:text="@string/start_btn_text"
+        android:textColor="@color/icons"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tv_retrieving"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <!---->
+
+    <Button
+        android:id="@+id/btn_stop_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/btn_stop_margin_bottom"
+        android:layout_marginEnd="@dimen/btn_stop_margin_right"
+        android:layout_marginLeft="@dimen/btn_stop_margin_left"
+        android:layout_marginRight="@dimen/btn_stop_margin_right"
+        android:layout_marginStart="@dimen/btn_stop_margin_left"
+        android:background="@color/primary_light"
+        android:enabled="false"
+        android:onClick="stopScan"
+        android:text="@string/stop_btn_text"
+        android:textColor="@color/icons"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btn_start_scan"/>
+
+    <Button
+        android:id="@+id/btn_show_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/btn_margin_bottom"
+        android:layout_marginRight="@dimen/btn_margin_right"
+        android:background="@color/colorPrimary"
+        android:onClick="showResults"
+        android:padding="@dimen/btn_padding"
+        android:text="@string/show_result_btn_text"
+        android:textColor="@color/icons"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:visibility="visible"/>
+
+</android.support.constraint.ConstraintLayout>

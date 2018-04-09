@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="progress_bar_margin">16dp</dimen>
+    <dimen name="progress_text_size">16sp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="pb_width">150dp</dimen>
+    <dimen name="pb_height">150dp</dimen>
+    <dimen name="pb_margin">16dp</dimen>
+    <dimen name="pb_margin_top">92dp</dimen>
+    <dimen name="btn_margin_bottom">192dp</dimen>
+    <dimen name="btn_margin_right">8dp</dimen>
+    <dimen name="btn_padding">16dp</dimen>
+    <dimen name="btn_stop_margin_left">115dp</dimen>
+    <dimen name="btn_stop_margin_right">50dp</dimen>
+    <dimen name="btn_stop_margin_bottom">273dp</dimen>
+    <dimen name="tv_retrieve_text_size">20sp</dimen>
+    <dimen name="tv_margin">5dp</dimen>
+    <dimen name="tv_title_text_size">24sp</dimen>
+    <dimen name="tv_margin_vertical">30dp</dimen>
+    <dimen name="tv_sub_text_size">16sp</dimen>
+</resources>
