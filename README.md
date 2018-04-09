@@ -25,7 +25,7 @@ This android application scans the external sd card
 3. **The app shows the progress of ongoing scan with circular progress bar.**
   - [ ] The percentage is calculated and updated in progress bar according to files processed.
 4. **The app allows the user to share the statistics through inbuilt share menu option.**
-  - [ ] The percentage is calculated and updated in progress bar according to files processed.
+  - [ ] The statistics can be shared via supported apps.
 5. **The app incorporates all the other mandatory functional requirements.**
   - [ ] Notification in status bar
   - [ ] Screen orientaion changes
