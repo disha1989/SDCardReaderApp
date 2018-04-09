@@ -29,7 +29,7 @@ This android application scans the external sd card
 - [Android Documentation ](https://developer.android.com/index.html)
 
 ## Notes
-  - [ ] Project was developed in Android Studio 2.1
+  - [ ] Project was developed in Android Studio 3.1
   - [ ] Project uses various new Android SDK features like fonts,constraint-layout etc and also incorporates 3rd party libraries like butterknife for binding the view.
   - [ ] Project supports all versions starting from Android 4.0.
 
