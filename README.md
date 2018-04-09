@@ -12,9 +12,14 @@ This android application scans the external sd card
   - [ ] Names and sizes of 10 largest files sorted by size
   - [ ] Average file size on SD Card
   - [ ] 5 most frequent file extensions (with their frequencies).
-    - [Screenshot 1](./SDCard1.gif)
-    - [Screenshot2](./SDCard2.gif)
-    
+  - [Screenshot 1](./SDCard1.gif)
+  
+  
+    ![Alt text](./SDCard1.gif?raw=true "Title")
+  - [Screenshot 2](./SDCard2.gif)
+  
+  
+    ![Alt text](./SDCard2.gif?raw=true "Title")
 2. **App allows the user to start and stop scanning.**
   - [ ] App allows the user to start, stop and see the results.
 3. **The app shows the progress of ongoing scan with circular progress bar.**
